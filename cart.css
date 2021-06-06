@@ -1,0 +1,53 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+body
+{
+    overflow: hidden;
+}
+#main
+{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+
+    display:flex;
+    flex-flow: column;
+
+}
+#banner
+{
+    width: 30%;
+    margin: 1% auto;
+    border: 1px solid black;
+    text-align: center;
+}
+#promo
+{
+    width: 30%;
+    margin: 1% auto;
+    border: 1px solid black;
+    text-align: center;
+}
+#final
+{
+    width: 30%;
+
+    margin: 1% auto;
+    border: 1px solid black;
+    text-align: center;
+}
+#pay
+{
+    width: 30%;
+
+    margin: 1% auto;
+
+    text-align: center;
+}
+#pay > button
+{
+    width: 90%;
+}

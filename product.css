@@ -1,0 +1,57 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+}
+body
+{
+    overflow: hidden;
+}
+#main
+{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-flow: column;
+}
+#navbar
+{
+    height: 10%;
+    width: 98%;
+    border: 1px solid black;
+    margin: 1%;
+}
+#productSec
+{
+    height: 80%;
+    width: 98%;
+    border: 1px solid black;
+    margin: 1%;
+
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-template-rows: 32% 32% 32%;
+}
+#navbar > button
+{
+    height: 90%;
+    width: 10%;
+    margin-left: 40%;
+}
+#productSec > div
+{
+    margin: 1%;
+    text-align: center;
+}
+#productSec>div>*
+{
+    margin: 0.4%;
+    margin-top: 0.2%;
+}
+#productSec > div > img
+{
+    width: 90%;
+    height: 70%;
+    margin: 0%;
+}
